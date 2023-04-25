@@ -1,0 +1,313 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* encabezado */
+header{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-image: url(../img/bg-inicio.jpg);
+}
+
+header .row p{
+    font-size:large;
+}
+
+.font-playfair{
+    font-family: 'Playfair Display SC', serif;
+}
+
+ul li a.text-white:hover{
+    color: #b9bdbd !important;
+}
+
+header .btn{
+    background-color: #009929;
+}
+
+header .btn:hover{
+    background-color: #5ccb5f;
+}
+
+.btn-flotante {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+    border-radius: 50px;
+    background-color: #009929;
+}
+
+.icono-wsp{
+    text-align: center;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 8px 9px ;
+    color: #fff;
+}
+
+.text-area{
+    height: 70px;
+    max-height: 80px;
+    min-height: 70px;
+}
+
+/* backgorunds */
+.bg-gray{
+    background-image: url(../img/bg-container.jpg);
+}
+
+.bg-serv{
+    background-color: #e5dde6;
+}
+
+.bg-nav{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.bg-purple{
+    background-color: #59244b;
+}
+
+.bg-wsp{
+    background-color: #11792d;
+}
+
+.service{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/servicios/img1.jpg);
+    display: flex;
+    align-items: center;
+}
+.service2{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/servicios/img2.jpg);
+    display: flex;
+    align-items: center;
+}
+.service3{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/servicios/img3.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.service4{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/servicios/img1.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.service-title{
+    width: 100%;
+    padding: 3em;
+}
+
+.service-text{
+    padding: 0 15px;
+    color: #000;
+}
+
+.h-serv:hover{
+    background-color: rgba(160, 160, 160, 0.7);
+}
+
+.bg-contact{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg-contact.jpg);
+    width: 100%;
+    height: auto;
+}
+
+/* boton flotante */
+
+.btn-flotante:hover {
+    transform: translateY(-7px);
+}
+
+.shadow-wsp{
+    box-shadow: 0px 0px 6px 6px #5ccb5f;
+}
+
+.contact-form-title{
+    border-radius: 20px 20px 0 0;
+}
+
+.contact-form-body{
+    border-radius: 0 0 20px 20px;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+.decoro{
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: 40px;
+}
+
+.message{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/bg-relleno.jpg);
+    height: 20em;
+    margin-bottom: 5em;
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #adaca8 !important;
+}
+/* general */
+.text-yellow{
+    color: #ebf3d7;
+}
+
+.active{
+    color: #35ac53 !important;
+}
+
+.text-green:hover{
+    color:#5ccb5f !important;
+}
+
+.text-gray{
+    color: #b8b9b9 !important;
+}
+
+.texto-centrado{
+    display: flex;
+    align-items: center;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    padding: 1em !important;
+    background-color: rgba(0,0,0,0.9);
+    transition: all ease .5s;
+}
+
+.logo-dev{
+    padding: 1px;
+    width: 17px;
+}
+
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-whatsapp{
+    width: 40px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.hover{
+    padding: 20px;
+}
+
+.writeus:hover{
+    background-color: #37b33b;
+}
+
+.message-wsp{
+    background-size: cover;
+    background-image: url(/img/bg-wsp.jpg);
+}
+
+.wsp-message{
+    position: fixed;
+    bottom: 100px;
+    right: 110px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+    width: 450px;
+}
+
+.wsp{
+    width: 20em !important;
+}
+
+.border-box{
+    border-radius: 30px 30px 0 0;
+}
+
+.border-box-message{
+    border-radius: 0 0 0 30px;
+}
+
+.border-message{
+    border-radius: 30px 30px 30px 0;
+}
+
+.lang{
+    padding: 0 30px;
+}
+
+.p-contact{
+    padding: 1em 2em;
+}
+
+@media only screen and (max-width: 990px) {
+    
+    .lang{
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .wsp-message{
+        bottom: 90px;
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .p-contact{
+        
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .wsp{
+        width: 15em !important;
+    }
+
+    .message{
+        height: 30em;
+    }
+}
